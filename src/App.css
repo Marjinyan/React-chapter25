@@ -1,0 +1,74 @@
+.App {
+  text-align: center;
+}
+
+.link {
+  text-decoration: none;
+  color: deepskyblue;
+}
+
+form>div {
+  margin: 10px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  background: black;
+  padding: 20px;
+}
+
+nav * {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.grid {
+  display: flex;
+  justify-content: space-between;
+  /* flex-wrap: wrap; */
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: flex-start;
+  gap: 24px;
+}
+
+.profile-picture {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: top;
+}
+
+.gallery {
+  background-color: lightgray;
+  width: 100%;
+  text-align: center;
+}
+
+.search-result-item {
+  margin: 10px;
+}
+
+.search-result-item img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.post img {
+  width: 300px;
+  height: 400px;
+  object-fit: cover;
+  margin: 20px;
+}
